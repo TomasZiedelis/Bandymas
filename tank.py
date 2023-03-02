@@ -1,7 +1,7 @@
-from os import system
+
 from random import randint
 
-_ = system('cls')
+
 
 
 class Tank:
@@ -101,5 +101,5 @@ while True:
     elif choice == 'end':
         break
     else:
-        'Chose unavailable action. Try again'
+        'Choice unavailable action. Try again'
 
